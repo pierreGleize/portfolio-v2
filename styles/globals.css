@@ -642,13 +642,20 @@ form .send-btn:hover{
   .about-text p{
       margin: 0 50px 50px 50px;
   }
-}
-
-@media (max-width: 600px){
-    .modal-container {
+  .modal-container {
     height: 70vh;
+    width: 70vw;
+  }
+  .card {
+    min-width: 300px;
+    min-height: 300px;
+  }
+  .portfolio-content{
+    padding: 0 0;
   }
 }
+
+
 
 @media (max-width: 470px){
   :rooth{

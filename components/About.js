@@ -37,9 +37,23 @@ const About = () => {
         <h2>
           A propos de <span>moi</span>
         </h2>
-        <p>
-          À 27 ans, je suis actuellement en reconversion pour travailler dans le
-          milieu du développement web...
+        <p style={{ textAlign: "left", lineHeight: 1.6 }}>
+          Je m'appelle Pierre Gleize, j'ai 28 ans. Après avoir travaillé pendant
+          8 années en tant que pâtissier, j'ai décidé de changer de voie pour
+          relever de nouveaux défis. Depuis longtemps, je nourrissais un intérêt
+          croissant pour l'informatique, le code et la construction de sites
+          web. J'ai créé mes premiers sites de manière autonome et j'ai
+          immédiatement adoré cette expérience. Pour approfondir mes
+          connaissances et formaliser mes compétences, je me suis lancé dans une
+          formation intensive, un bootcamp, afin d'obtenir un diplôme et de
+          monter en compétences. Cette formation m'a permis d'apprendre à créer
+          un site web, de sa conception à son déploiement, tout en travaillant
+          en équipe sur des projets collaboratifs. Diplôme en poche, je suis
+          désormais prêt à poursuivre mon apprentissage en DevOps. Dans cette
+          optique, je recherche une entreprise prête à m’accueillir en
+          alternance à partir du 24 mars. Mon objectif est de continuer à
+          évoluer dans le domaine du développement et d'approfondir mes
+          connaissances pratiques dans une entreprise dynamique et innovante.
         </p>
         <a href="#portfolio" className="btn">
           Voir mes projets
