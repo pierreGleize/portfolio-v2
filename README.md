@@ -3,7 +3,7 @@
 ## Bienvenue sur mon portfolio ! 👋
 Je suis un développeur web et mobile, spécialisé en React Native, React.js, Node.js, et MongoDB. Ce portfolio présente une sélection de mes projets récents, mettant en avant mes compétences en développement front-end et back-end.
 
-## Technologies utilisées
+## 💻 Technologies utilisées
 - React : Développement d'applications web modernes avec des interfaces utilisateur réactives.
 - Next JS : Framework React pour des applications performantes et SEO-friendly.
 - Venta.js : Création d'animations dynamiques pour la page d'accueil.
