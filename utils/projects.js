@@ -1,5 +1,16 @@
 const projectsList = [
   {
+    name: "Sunny Case",
+    stacks: ["Next.js", "Redux", "Node.JS", "Express.JS", "MongoDB"],
+    description:
+      "Sunny Case est une application web de vente d'accessoires pour téléphones mobiles. Le site permet aux utilisateurs de naviguer à travers différentes catégories d'articles, de les ajouter à leur panier, de gérer les quantités, et de procéder à un paiement fictif. En plus de cela, les utilisateurs peuvent créer un compte, se connecter, et consulter un historique de leurs commandes. L'application a été inspirée du site Burga, où toutes les images utilisées proviennent de ce site.",
+    link: "https://sunny-case-front.vercel.app/",
+    image: "/sunnycase2.webp",
+    github: "https://github.com/pierreGleize/sunny-case-front",
+    isMobile: false,
+    aos: "fade-left",
+  },
+  {
     name: "Progress Pulse",
     stacks: ["React Native", "Expo", "Node.JS", "Express.JS", "Redux"],
     description:
