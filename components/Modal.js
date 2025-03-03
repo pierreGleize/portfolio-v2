@@ -21,33 +21,43 @@ const Modal = ({ link, qrCode, closeModal }) => {
         closeModal();
       }
     };
+    const handlePressEscape = (event) => {
+      if (event.key === "Escape") {
+        closeModal();
+      }
+    };
 
     document.addEventListener("mousedown", handleClickOutside);
+    document.addEventListener("keydown", handlePressEscape);
 
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener("keydown", handlePressEscape);
     };
   }, [closeModal]);
 
   return ReactDOM.createPortal(
-    <div className="modal-container" ref={modalRef}>
-      <div className="modal">
-        <FontAwesomeIcon
-          icon={faCircleXmark}
-          className="close-modal"
-          onClick={() => closeModal()}
-        />
-        <img src={qrCode} alt={qrCode} className="modal-image" />
-        <video
-          className="video"
-          src={link}
-          alt={link}
-          controls
-          preload="true"
-          autoPlay={true}
-        ></video>
+    <>
+      <div className="overlay"></div>
+      <div className="modal-container" ref={modalRef}>
+        <div className="modal">
+          <FontAwesomeIcon
+            icon={faCircleXmark}
+            className="close-modal"
+            onClick={() => closeModal()}
+          />
+          <img src={qrCode} alt={qrCode} className="modal-image" />
+          <video
+            className="video"
+            src={link}
+            alt={link}
+            controls
+            preload="true"
+            autoPlay={true}
+          ></video>
+        </div>
       </div>
-    </div>,
+    </>,
     document.body
   );
 };

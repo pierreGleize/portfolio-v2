@@ -31,9 +31,8 @@ const Hero = () => {
   return (
     <section className="hero" id="home" ref={myRef} data-aos="fade-in">
       <div className="main-content">
-        <h4>Hello,</h4>
         <h1>
-          Je suis <span>Pierre Gleize</span>
+          <span>Pierre</span> Gleize
         </h1>
         <p>Développeur Web Junior</p>
         <div className="social">
